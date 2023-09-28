@@ -1,0 +1,357 @@
+@charset "UTF-8";
+
+:root{
+    --cor0: rgb(215, 227, 253);
+    --cor1: #0a6bfc;
+    --cor2: #0940f1;
+    --cor3: rgb(0, 0, 173);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(215, 227, 253);
+}
+
+#body-home{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(215, 227, 253);
+}
+
+#body-home h1{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+
+.title{
+    font-size: 1.5em;
+    font-weight: bold;
+    position: sticky;
+    width: 100%;
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor1), var(--cor0));
+    color: #fff;
+    padding-top: 30px;
+    min-height: 80px; 
+}
+
+
+h1{
+   text-align: center;
+   
+}
+h2{
+    text-align: center;
+    text-indent: 8px;
+}
+p{
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 1.5em;
+    margin: 15px 0px;
+
+}
+
+ol{
+  list-style-position: inside;
+}  
+
+li{
+    line-height: 1.5em;
+}
+
+img{
+    text-align: center;
+    border-radius: 10px;
+}
+
+.main{
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+  margin-bottom: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.main-tabela{
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+  margin-bottom: 30px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.main-tabela img{
+  border-radius: 0;
+}
+    
+
+#center{
+    text-align: center;
+}
+
+#voltaaotopo{
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+.img-canoagem{
+    width: 40%;
+    margin-left: 30%;
+}
+
+#p-canoagem{
+  text-align: center;
+}
+
+#img-canoagem-olimpiada{
+    width: 50%;
+    text-align: center;
+}
+
+#img-campeao{
+  display: block;
+  width: 30%;
+  margin: auto; 
+  border-radius: 20px;
+}
+
+#img-campeao-canoa{
+  display: block;
+  width: 50%;
+  margin: auto;
+  border-radius: 40px;
+}
+
+
+#video-yt{
+    text-align: center;
+}
+
+ol{
+    text-align: justify;
+}
+
+#menu-h{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(10, 107, 252);
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.2);
+    
+}
+
+#menu-h li{
+    display: inline;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#menu-h li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px;
+    border-radius: 5px;
+    transition-duration: .3s;
+
+}
+
+#menu-h li a:hover{
+    background-color: rgb(188, 193, 255);
+    color: var(--cor1);
+}
+
+.integrante {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px black;
+  }
+  
+  .integrante h2 {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+  }
+  
+  .integrante p {
+    margin: 5px 0;
+    color: #666666;
+    font-weight: bold;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr {
+    background-color: #f5f5f5;
+  }
+
+  #ouro{
+    background-color: #FFD700;
+  }
+
+  #prata{
+    background-color: #C0C0C0;
+  }
+
+  #bronze{
+    background-color: #cd7f32 ;
+  }
+
+  #evento{
+    background-color: rgb(178, 211, 226); 
+  }
+
+#sem-sublinhado{
+    text-decoration: none;
+}
+
+
+
+
+  .descricao{
+    display: block;
+    background-color: rgba(153, 153, 153, 0.233);
+    width: 43%;
+    margin: 0 auto; 
+    
+  }
+
+ 
+
+  .descricao p{
+    text-align: justify;
+    text-indent: 0px;
+  }
+  
+  .container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .container img {
+    position: relative;
+    animation: mover-horizontalmente 20s linear infinite;
+  }
+  
+  @keyframes mover-horizontalmente {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 100%;
+    }
+  }
+
+ 
+ .instagram{
+  width: 3%;
+ }
+
+ .twitter{
+  width: 3%;
+ }
+
+ .youtube{
+  width: 3%;
+ }
+
+.carousel{
+  min-width: 300px;
+  max-width: 900px;
+  margin: auto;
+  padding: 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+  margin-bottom: 30px;
+  border-radius: 10px;
+  position: absolute;
+  top: 0px;
+}
+
+#menu-home{
+  list-style: none;
+  padding: 0;
+  background-color: rgb(10, 107, 252);
+  top: 0px;
+  width: 100%;
+  box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.2);
+}
+
+#menu-home li{
+  display: inline;
+  font-size: medium;
+  font-weight: bold;
+}
+
+#menu-home li a{
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 20px 20px;
+  border-radius: 5px;
+  transition-duration: .3s;
+}
+
+#menu-home li a:hover{
+  background-color: rgb(188, 193, 255);
+  color: var(--cor1);
+}
+
+.carousel-caption h5{
+  color: black;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 1.1em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.carousel-caption p{
+  color: black;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+
+
